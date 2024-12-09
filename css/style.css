@@ -1,0 +1,99 @@
+/*
+	LotJ Style Custom CSS
+	for use with LotJ Character Planner
+	by @Xerakon
+	http://xerakon.com/planner
+	style.css
+	Version 1.0
+*/
+
+@font-face {
+  font-family: "bitstream_vera_sans_monoroman";
+  src:  url("http://xerakon.com/lotj-rework/css/fonts/veramono-webfont.woff2") format("woff2"),
+        url("http://xerakon.com/lotj-rework/css/fonts/veramono-webfont.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #000;
+  color: #c0c0c0;
+  font-family: "bitstream_vera_sans_monoroman", monospace;
+  font-size: 16px;
+}
+
+.bigFont {
+	font-size: 60px;
+}
+
+.littleFont {
+	font-size: 25px;
+}
+
+.l1 {
+	color: #0000FF;
+}
+
+.l2 {
+	color: #00FF00;
+}
+
+.l3 {
+	color: #00FFFF;
+}
+
+.l4 {
+	color: #FFFF00;
+}
+
+.l5 {
+	color: #FF0000;
+}
+
+.center-cell {
+	text-align: center;
+}
+
+.right-cell {
+	text-align: right;
+}
+
+.modal-content {
+	background: #000000;
+}
+
+.modal-title {
+	color: #FFFFFF;
+}
+
+.innerContainer {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#skillsModal body {
+	font-family: 'Bitstream Vera Sans Mono', 'Courier New', 'Monospace', 'Courier';
+	font-size: 100%;
+	line-height: 1.125em;
+	white-space: nowrap;
+	color:rgb(255,255,255);
+	background-color:rgb(0,0,0);
+}
+
+#skillsModal span {
+	white-space: pre-wrap;
+}
+
+.skinColorRow {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+.skinColorRow div {
+	flex: 1;
+	text-align: left;
+	margin-right: 10px;
+}
+.skinColorRow div:last-child {
+	margin-right: 0;
+}

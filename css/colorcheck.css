@@ -1,0 +1,51 @@
+/*
+	LotJ Colorcheck Custom CSS
+	by @Xerakon
+	http://xerakon.com/lotj
+	colorcheck.css
+*/
+
+#title {
+  font-size: 26px;
+}
+
+.container {
+  max-width: 800px; /* may adjust later */
+  margin: 0 auto; /* center container */
+  padding: 20px;
+}
+
+.container-fluid {
+  padding: 25px;
+}
+
+#inputArea {
+  width: 1000px;
+  height: 400px; /* may adjust height later */
+  margin-bottom: 20px;
+}
+
+.output {
+  white-space: pre-wrap; /* ensure text wraps */
+  word-wrap: break-word; /* break words at the end of the line */
+  width: 750px;
+  /*max-width: 640px; /* approximate width to fit 80 characters, adjust based on actual font size */
+  overflow-wrap: break-word;
+}
+
+#inputArea, .output {
+  background-color: #000;
+  color: #c0c0c0;
+  border: 1px solid #333; /* subtle border, may adjust color later */
+  padding: 10px; /* add some padding inside the text areas */
+  font-family: "bitstream_vera_sans_monoroman", monospace;
+  font-size: 16px;
+}
+
+.modal-content {
+	background: #000000;
+}
+
+.modal-title {
+	color: #FFFFFF;
+}
