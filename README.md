@@ -1,7 +1,7 @@
-# lotj-colorchecker
-Simple colorchecker app for LotJ (https://legendsofthejedi.com)
+# lotj-apps
+All of Xerakon's web applications for LotJ (https://legendsofthejedi.com)
 
-Compiled by @Xerakon. Credit to @Xavier for original concept. Thanks to @Rengawm for 256color conversion assistance.
+Compiled by @Xerakon. Credit to @Xavier for the original colorchecker concept, and to @Rengawm for 256color conversion assistance.
 
 Javascript & Bootstrap 4
 
